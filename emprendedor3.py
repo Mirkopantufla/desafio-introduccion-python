@@ -1,7 +1,7 @@
-pSuscripcion = float(input('Ingrese precio de suscripción: '))
-nUsuarios = float(input('Ingrese numero de usuarios: '))
-gTotales = float(input('Ingrese los gastos totales: '))
-utilidadesAnteriores = float(input('Ingrese las utilidades del año anterior: '))
+pSuscripcion = float(input('Ingrese precio de suscripción (ej: 5000): '))
+nUsuarios = float(input('Ingrese numero de usuarios (ej: 5): '))
+gTotales = float(input('Ingrese los gastos totales (ej: 2000): '))
+utilidadesAnteriores = float(input('Ingrese las utilidades del año anterior (ej: 15000): '))
 
 razon = (pSuscripcion * nUsuarios - gTotales) / utilidadesAnteriores
 
